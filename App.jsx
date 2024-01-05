@@ -10,7 +10,7 @@ export default function App() {
 	const [woodOnFire, setWoodOnFire] = React.useState(false)
     
 	
-/*----- ❌ ⬇️ Code you don't have to worry about! ❌ ⬇️️ ️----------- */  
+
     const [cursorPosition, setCursorPosition] = React.useState({x: null, y: null})
 	const kindleClass = woodKindling && !woodOnFire && "kindle"
    
